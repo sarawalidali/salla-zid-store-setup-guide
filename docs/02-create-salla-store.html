@@ -1,0 +1,242 @@
+<!doctype html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>إنشاء متجرك على سلة وتوثيقه · أنشئ متجرك على سلة وزد خطوة بخطوة</title>
+<meta name="description" content="رحلة الإنشاء الخمس، ومتطلبات التدشين، والتوثيق حسب الكيان، وخريطة لوحة التحكم">
+<meta name="author" content="سارة وليد علي">
+<link rel="canonical" href="https://sarawalidali200-tech.github.io/salla-zid-store-setup-guide/02-create-salla-store.html">
+<meta property="og:type" content="article">
+<meta property="og:title" content="إنشاء متجرك على سلة وتوثيقه · أنشئ متجرك على سلة وزد خطوة بخطوة">
+<meta property="og:description" content="رحلة الإنشاء الخمس، ومتطلبات التدشين، والتوثيق حسب الكيان، وخريطة لوحة التحكم">
+<meta property="og:url" content="https://sarawalidali200-tech.github.io/salla-zid-store-setup-guide/02-create-salla-store.html">
+<meta property="og:image" content="https://sarawalidali200-tech.github.io/salla-zid-store-setup-guide/assets/og.png">
+<meta property="og:locale" content="ar_AR">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="theme-color" content="#0F1730">
+<link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Readex+Pro:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+<div class="progress" aria-hidden="true"><span></span></div>
+<header class="topbar"><div class="wrap topbar-in">
+  <a class="brand" href="index.html"><span class="brand-mark" aria-hidden="true"></span><span>أنشئ متجرك على سلة وزد</span></a>
+  <button class="menu-btn" aria-label="القائمة" aria-expanded="false"><svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M4 7h16M4 12h16M4 17h16"/></svg></button>
+  <nav class="nav" aria-label="المقالات"><a href="01-before-you-start.html" class=""><b>01</b>قبل أن تبدأ</a><a href="02-create-salla-store.html" class="on"><b>02</b>إنشاء المتجر</a><a href="03-products.html" class=""><b>03</b>المنتجات</a><a href="04-payments-shipping.html" class=""><b>04</b>الدفع والشحن</a><a href="05-design-customization.html" class=""><b>05</b>التصميم</a><a href="06-zid-and-launch.html" class=""><b>06</b>زد والإطلاق</a><a href="sources.html" class="">المصادر</a><a class="gh" href="https://github.com/sarawalidali200-tech/salla-zid-store-setup-guide" target="_blank" rel="noopener" aria-label="الريبو على GitHub"><svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M9 19c-4 1.5-4-2-6-2.5M15 21v-3.5c0-1 .1-1.4-.5-2 2.8-.3 5.5-1.4 5.5-6a4.6 4.6 0 0 0-1.3-3.2 4.3 4.3 0 0 0-.1-3.2s-1.1-.3-3.5 1.3a12 12 0 0 0-6.2 0C6.5 2.8 5.4 3.1 5.4 3.1a4.3 4.3 0 0 0-.1 3.2A4.6 4.6 0 0 0 4 9.5c0 4.6 2.7 5.7 5.5 6-.6.6-.6 1.2-.5 2V21"/></svg><span>GitHub</span></a></nav>
+</div></header>
+
+<main class="wrap article-layout">
+  <aside class="toc" aria-label="محتوى المقال"><div class="toc-title">في هذا المقال</div><ol><li><a href="#ما-ستنجزه-في-هذا-المقال">ما ستنجزه في هذا المقال</a></li><li><a href="#رحلة-إنشاء-المتجر-خمس-خطوات">رحلة إنشاء المتجر: خمس خطوات</a></li><li><a href="#متطلبات-التدشين-ما-لا-يمكن-تخطيه">متطلبات التدشين: ما لا يمكن تخطيه</a></li><li><a href="#خطوات-إعداد-المتجر-بعد-التسجيل">خطوات إعداد المتجر بعد التسجيل</a></li><li><a href="#توثيق-المتجر-خطوة-بخطوة">توثيق المتجر خطوة بخطوة</a></li><li><a href="#أين-تجد-كل-شيء-في-لوحة-التحكم">أين تجد كل شيء في لوحة التحكم؟</a></li><li><a href="#قائمة-المراجعة">قائمة المراجعة</a></li><li><a href="#المصادر">المصادر</a></li></ol>
+    <div class="toc-extra"><a href="https://github.com/sarawalidali200-tech/salla-zid-store-setup-guide/tree/main/articles/02-create-salla-store" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M9 19c-4 1.5-4-2-6-2.5M15 21v-3.5c0-1 .1-1.4-.5-2 2.8-.3 5.5-1.4 5.5-6a4.6 4.6 0 0 0-1.3-3.2 4.3 4.3 0 0 0-.1-3.2s-1.1-.3-3.5 1.3a12 12 0 0 0-6.2 0C6.5 2.8 5.4 3.1 5.4 3.1a4.3 4.3 0 0 0-.1 3.2A4.6 4.6 0 0 0 4 9.5c0 4.6 2.7 5.7 5.5 6-.6.6-.6 1.2-.5 2V21"/></svg> المقال على GitHub</a><a href="https://github.com/sarawalidali200-tech/salla-zid-store-setup-guide/raw/main/notion/02-create-salla-store.zip"><svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M12 4v11M7 10l5 5 5-5M5 20h14"/></svg> نسخة Notion</a></div></aside>
+  <article class="prose">
+    <nav class="crumbs"><a href="index.html">السلسلة</a><span>/</span><span>المقال 02 من 6</span></nav>
+    <header class="article-head"><span class="kicker">المقال 02</span><h1>إنشاء متجرك على سلة وتوثيقه</h1>
+      <p class="meta"><span>بقلم سارة وليد علي</span><span><svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg> قراءة 5 دقائق</span><span><svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="4" width="18" height="16" rx="2"/><circle cx="9" cy="10" r="2"/><path d="M21 17l-5-5-9 8"/></svg> 4 رسوم توضيحية</span></p></header>
+    <details class="toc-mobile"><summary>في هذا المقال</summary><ol><li><a href="#ما-ستنجزه-في-هذا-المقال">ما ستنجزه في هذا المقال</a></li><li><a href="#رحلة-إنشاء-المتجر-خمس-خطوات">رحلة إنشاء المتجر: خمس خطوات</a></li><li><a href="#متطلبات-التدشين-ما-لا-يمكن-تخطيه">متطلبات التدشين: ما لا يمكن تخطيه</a></li><li><a href="#خطوات-إعداد-المتجر-بعد-التسجيل">خطوات إعداد المتجر بعد التسجيل</a></li><li><a href="#توثيق-المتجر-خطوة-بخطوة">توثيق المتجر خطوة بخطوة</a></li><li><a href="#أين-تجد-كل-شيء-في-لوحة-التحكم">أين تجد كل شيء في لوحة التحكم؟</a></li><li><a href="#قائمة-المراجعة">قائمة المراجعة</a></li><li><a href="#المصادر">المصادر</a></li></ol></details>
+    <blockquote>
+<p><strong>قبل القراءة:</strong> الخطوات مأخوذة من مركز مساعدة سلة كما كان في نوفمبر 2026. أسماء الأزرار مكتوبة بين قوسين كما تظهر في لوحة التحكم، مثل (ابدأ الآن).</p>
+</blockquote>
+<hr />
+<h2 id="ما-ستنجزه-في-هذا-المقال">ما ستنجزه في هذا المقال</h2>
+<p>في نهاية هذا المقال سيكون لديك متجر على سلة باسمه وشعاره ورابطه، وأول منتج، وموقع لاستلام الشحنات، وطلب توثيق مُرسل. هذه هي المتطلبات الأساسية لتدشين المتجر.</p>
+<h2 id="رحلة-إنشاء-المتجر-خمس-خطوات">رحلة إنشاء المتجر: خمس خطوات</h2>
+<p>بعد إنشاء حساب جديد على سلة، اضغط (ابدأ الآن) لإنشاء متجر جديد. تأخذك سلة في رحلة من خمس خطوات (<a href="https://help.salla.sa/article/create-new-store-on-salla/uqwvq1ztbcbj7ldi0xwbee7h" target="_blank" rel="noopener">إنشاء متجر جديد على سلة</a>):</p>
+<figure><a class="zoom" href="assets/02-create-salla-store/01-creation-wizard.webp"><img src="assets/02-create-salla-store/01-creation-wizard.webp" alt="رحلة إنشاء المتجر على سلة في خمس خطوات" loading="lazy" decoding="async"></a><figcaption>صورة 1: رحلة إنشاء المتجر في خمس خطوات، وما تدخله في كل خطوة.</figcaption></figure>
+<h3 id="أولا-معلومات-المتجر">أولًا: معلومات المتجر</h3>
+<ol>
+<li><strong>الشعار (اختياري):</strong> يظهر للعملاء، ويمكنك تغييره بعد التدشين.</li>
+<li><strong>اسم المتجر:</strong> الاسم الذي سيظهر للعملاء. لاحظ أن رابط متجرك يُكتب تلقائيًا أسفل الخانة، ويمكنك تغييره لاحقًا في أي وقت.</li>
+<li><strong>النشاط التجاري:</strong> حدد النشاط الأساسي والفرعي.</li>
+<li><strong>نوع الكيان:</strong> اختر نوع الكيان، ثم اضغط (التالي).</li>
+</ol>
+<h3 id="ثانيا-أول-منتج">ثانيًا: أول منتج</h3>
+<p>أضف منتجك الأول بالنوع الذي يناسب نشاطك. مثلًا: إذا كنت تقدم خدمات رقمية فأضف منتجًا رقميًا. أدخل البيانات المطلوبة، ثم اضغط (التالي). تفاصيل إضافة المنتجات في المقال 03.</p>
+<p><strong>انتبه:</strong> باقة سلة بيسك المجانية تتيح نوع «منتج جاهز» فقط. الأنواع الأخرى، مثل المنتجات الرقمية والبطاقات الرقمية ومنتج الأكل والمنتج حسب الطلب ومجموعة المنتجات ومنتج الحجوزات، متاحة في سلة بلس وسلة برو.</p>
+<h3 id="ثالثا-خيارات-الشحن">ثالثًا: خيارات الشحن</h3>
+<ol>
+<li>حدد <strong>موقع استلام الشحنات</strong> على الخريطة الظاهرة في الصفحة.</li>
+<li>فعّل شركات الشحن التي تناسبك من قائمة <strong>بوليصات سلة</strong>. ويمكنك الوصول إلى شركات شحن أخرى من متجر التطبيقات.</li>
+</ol>
+<h3 id="رابعا-المدفوعات-الإلكترونية">رابعًا: المدفوعات الإلكترونية</h3>
+<p>اختر وفعّل وسائل الدفع بينك وبين عملائك. <strong>ملاحظة مهمة:</strong> بوابات الدفع الإلكتروني تعمل بعد إتمام توثيق المتجر، وتحتاج باقة مدفوعة. تفاصيل الدفع في المقال 04.</p>
+<h3 id="خامسا-الباقة">خامسًا: الباقة</h3>
+<p>اختر الباقة التي تبدأ بها، ثم اضغط (التالي). إذا اخترت سلة بلس أو سلة برو، ستنتقل إلى صفحة الدفع لإتمام الاشتراك.</p>
+<p>بعد هذه الخطوة تكون قد أتممت التسجيل، ويمكنك تعديل كل ما أدخلته من لوحة التحكم.</p>
+<h2 id="متطلبات-التدشين-ما-لا-يمكن-تخطيه">متطلبات التدشين: ما لا يمكن تخطيه</h2>
+<p>تقسّم سلة متطلبات تدشين المتجر إلى نوعين (<a href="https://help.salla.sa/article/create-new-store-on-salla/uqwvq1ztbcbj7ldi0xwbee7h" target="_blank" rel="noopener">المصدر</a>):</p>
+<div class="table-wrap"><table>
+<thead>
+<tr>
+<th>النوع</th>
+<th>المتطلبات</th>
+<th>هل يمكن تخطيها؟</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>أساسية</td>
+<td>توثيق المتجر، إضافة أول منتج، تحديد الموقع</td>
+<td>لا</td>
+</tr>
+<tr>
+<td>ثانوية</td>
+<td>معلومات المتجر، تفعيل خيارات الشحن، تفعيل المدفوعات الإلكترونية، تخصيص التصميم</td>
+<td>نعم، ويمكنك العودة لإكمالها في أي وقت</td>
+</tr>
+</tbody>
+</table></div>
+<figure><a class="zoom" href="assets/02-create-salla-store/02-launch-requirements.webp"><img src="assets/02-create-salla-store/02-launch-requirements.webp" alt="متطلبات تدشين المتجر الأساسية والثانوية" loading="lazy" decoding="async"></a><figcaption>صورة 2: ثلاثة متطلبات أساسية لا يمكن تخطيها، وأربعة يمكن إكمالها لاحقًا.</figcaption></figure>
+<h2 id="خطوات-إعداد-المتجر-بعد-التسجيل">خطوات إعداد المتجر بعد التسجيل</h2>
+<p>دليل التدشين في سلة يرتب إعداد المتجر في سبع خطوات (<a href="https://help.salla.sa/article/launch-your-store-on-salla/zgflevdt56pvfugbbnnkzr06" target="_blank" rel="noopener">تدشين متجرك على سلة</a>):</p>
+<ol>
+<li><strong>هوية المتجر:</strong> الاسم، والوصف، والشعار، واللون، ثم (حفظ).</li>
+<li><strong>قنوات خدمة العملاء:</strong> يُستخدم رقم الجوال المسجل في حسابك افتراضيًا ويظهر أسفل المتجر. لاستخدام رقم آخر، ألغِ تحديد خيار (استخدام نفس الرقم المسجّل في حسابك)، ثم أدخل الرقم وأكمل التحقق.</li>
+<li><strong>دومين المتجر:</strong> حدد النطاق الذي تريده، ثم (حفظ). اختر اسمًا قصيرًا وسهل التذكر.</li>
+<li><strong>أول منتج:</strong> اختر نوع المنتج المناسب وأدخل بياناته.</li>
+<li><strong>موقع استلام الشحنات:</strong> حدده بدقة على الخريطة.</li>
+<li><strong>تصميم المتجر:</strong> ستنتقل إلى صفحة تصميم المتجر. التفاصيل في المقال 05.</li>
+<li><strong>توثيق المتجر:</strong> المحطة الأخيرة قبل التدشين.</li>
+</ol>
+<h2 id="توثيق-المتجر-خطوة-بخطوة">توثيق المتجر خطوة بخطوة</h2>
+<p>توثيق المتجر في سلة هو التحقق من بيانات متجرك واعتمادها داخل المنصة، وهو إجراء مستقل عن توثيق منصة الأعمال أو أي توثيق خارجي. يفيدك التوثيق في تفعيل بوابات الدفع وخدمات الشحن، وفي رفع ثقة العملاء بمتجرك (<a href="https://help.salla.sa/article/verifying-your-new-store-in-saudi-arabia/ig4b4l5hc542j4bcd2tp82bz" target="_blank" rel="noopener">توثيق متجرك الجديد في السعودية</a>).</p>
+<h3 id="الوصول-إلى-صفحة-التوثيق">الوصول إلى صفحة التوثيق</h3>
+<p>اضغط (ابدأ توثيق متجرك)، أو ادخل إلى صفحة (توثيق المتجر) من تبويب (الكل) في القائمة الرئيسية.</p>
+<h3 id="البيانات-المطلوبة-حسب-الكيان">البيانات المطلوبة حسب الكيان</h3>
+<figure><a class="zoom" href="assets/02-create-salla-store/03-verification-fields.webp"><img src="assets/02-create-salla-store/03-verification-fields.webp" alt="البيانات المطلوبة للتوثيق حسب نوع الكيان" loading="lazy" decoding="async"></a><figcaption>صورة 3: حقول نموذج التوثيق لكل نوع كيان، والخطوة المشتركة بعد الإرسال.</figcaption></figure>
+<div class="table-wrap"><table>
+<thead>
+<tr>
+<th>البيان</th>
+<th>فرد</th>
+<th>مؤسسة</th>
+<th>شركة</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>رقم هوية المالك</td>
+<td>✓</td>
+<td>✓</td>
+<td>✓</td>
+</tr>
+<tr>
+<td>تاريخ الميلاد</td>
+<td>بالهجري</td>
+<td>هجري للسعوديين، ميلادي لغيرهم</td>
+<td>هجري للسعوديين، ميلادي لغيرهم</td>
+</tr>
+<tr>
+<td>الوثيقة</td>
+<td>رقم وثيقة العمل الحر</td>
+<td>رقم السجل التجاري الموحد</td>
+<td>رقم السجل التجاري الموحد</td>
+</tr>
+<tr>
+<td>البنك والآيبان واسم صاحب الحساب</td>
+<td>✓</td>
+<td>✓ حساب تجاري باسم المؤسسة</td>
+<td>✓ حساب تجاري باسم الشركة</td>
+</tr>
+<tr>
+<td>شهادة الآيبان</td>
+<td>✓</td>
+<td>✓</td>
+<td>✓</td>
+</tr>
+</tbody>
+</table></div>
+<p>وللجمعيات الخيرية: رقم هوية المفوّض عن الجمعية، وتاريخ ميلاده بالهجري، والرقم الوطني الموحد للجمعية المكوّن من 10 أرقام. وتحصل الجمعيات على باقة سلة برو مجانًا مدى الحياة بعد إتمام التوثيق.</p>
+<h3 id="الإرسال-والتحقق">الإرسال والتحقق</h3>
+<ol>
+<li>اضغط (إرسال طلب التوثيق).</li>
+<li>ستصل رسالة نصية من <strong>أبشر</strong> إلى رقم مالك المتجر المسجل لتأكيد الهوية.</li>
+<li>يراجع فريق سلة الطلب، وعند اكتمال البيانات وصحتها تصلك رسالة بأن متجرك تم توثيقه.</li>
+</ol>
+<h3 id="نصائح-لقبول-الطلب-من-أول-مرة">نصائح لقبول الطلب من أول مرة</h3>
+<ul>
+<li>راجع كل رقم مرتين قبل الإرسال، خصوصًا رقم الآيبان والسجل.</li>
+<li>اكتب اسم صاحب الحساب كما هو في شهادة الآيبان، وليس كما هو على البطاقة.</li>
+<li>لا ترفع وثائق باسم شخص آخر غير مالك المتجر.</li>
+</ul>
+<p>بعد اعتماد التوثيق، انتقل إلى تفعيل بوابات الدفع وخدمات الشحن، وهذا موضوع المقال 04.</p>
+<h2 id="أين-تجد-كل-شيء-في-لوحة-التحكم">أين تجد كل شيء في لوحة التحكم؟</h2>
+<p>سلة حدّثت التنقل في لوحة التحكم، وأغلب الإعدادات أصبحت تحت قائمة (الكل) أو (المتجر وقنوات البيع). هذه خريطة المسارات التي ستحتاجها في السلسلة، كما وردت في مقالات مركز المساعدة:</p>
+<div class="table-wrap"><table>
+<thead>
+<tr>
+<th>ماذا تريد</th>
+<th>المسار</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>توثيق المتجر</td>
+<td>تبويب (الكل) ← (توثيق المتجر)</td>
+</tr>
+<tr>
+<td>إضافة منتج</td>
+<td>(المنتجات) ← (+ إنشاء منتج جديد)</td>
+</tr>
+<tr>
+<td>التصنيفات والماركات</td>
+<td>(المنتجات) ← (التصنيفات والخيارات)</td>
+</tr>
+<tr>
+<td>طرق الدفع</td>
+<td>(الكل) ← قسم الإعدادات والأدوات ← (طرق الدفع)</td>
+</tr>
+<tr>
+<td>الشحن والتوصيل</td>
+<td>(الكل) ← (الشحن والتوصيل)</td>
+</tr>
+<tr>
+<td>تصميم المتجر</td>
+<td>(المتجر وقنوات البيع) ← (تصميم المتجر)</td>
+</tr>
+<tr>
+<td>متجر الثيمات</td>
+<td>(المتجر وقنوات البيع) ← (متجر الثيمات)</td>
+</tr>
+<tr>
+<td>دومين المتجر</td>
+<td>(المتجر وقنوات البيع) ← (دومين المتجر)</td>
+</tr>
+<tr>
+<td>تحسين محركات البحث</td>
+<td>تبويب التسويق ← (تحسين محركات البحث)</td>
+</tr>
+</tbody>
+</table></div>
+<figure><a class="zoom" href="assets/02-create-salla-store/04-dashboard-map.webp"><img src="assets/02-create-salla-store/04-dashboard-map.webp" alt="خريطة مسارات لوحة تحكم سلة" loading="lazy" decoding="async"></a><figcaption>صورة 4: خريطة مبسطة لمسارات الإعدادات التي تستخدمها في السلسلة.</figcaption></figure>
+<p><strong>نصيحة:</strong> إذا لم تجد إعدادًا، استخدم البحث في لوحة التحكم، أو ابحث عن اسمه في <a href="https://help.salla.sa/" target="_blank" rel="noopener">مركز مساعدة سلة</a>.</p>
+<h2 id="قائمة-المراجعة">قائمة المراجعة</h2>
+<ul class="checklist">
+<li class="task"><label><input type="checkbox"><span>أنشأت الحساب وأكملت رحلة الإنشاء الخمس.</span></label></li>
+<li class="task"><label><input type="checkbox"><span>أضفت أول منتج، وحددت موقع استلام الشحنات.</span></label></li>
+<li class="task"><label><input type="checkbox"><span>أدخلت هوية المتجر: الاسم والوصف والشعار واللون.</span></label></li>
+<li class="task"><label><input type="checkbox"><span>تأكدت من رقم خدمة العملاء.</span></label></li>
+<li class="task"><label><input type="checkbox"><span>اخترت دومين المتجر.</span></label></li>
+<li class="task"><label><input type="checkbox"><span>أرسلت طلب التوثيق، وأكدت رسالة أبشر.</span></label></li>
+</ul>
+<h2 id="المصادر">المصادر</h2>
+<ul>
+<li><a href="https://help.salla.sa/article/create-new-store-on-salla/uqwvq1ztbcbj7ldi0xwbee7h" target="_blank" rel="noopener">سلة: إنشاء متجر جديد على سلة</a></li>
+<li><a href="https://help.salla.sa/article/launch-your-store-on-salla/zgflevdt56pvfugbbnnkzr06" target="_blank" rel="noopener">سلة: تدشين متجرك على سلة</a></li>
+<li><a href="https://help.salla.sa/article/verifying-your-new-store-in-saudi-arabia/ig4b4l5hc542j4bcd2tp82bz" target="_blank" rel="noopener">سلة: توثيق متجرك الجديد في السعودية</a></li>
+</ul>
+    <nav class="pager" aria-label="التنقل بين المقالات"><a class="pg prev" href="01-before-you-start.html"><span class="pg-dir"><svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg> المقال السابق</span><span class="pg-title">01 — قبل أن تبدأ</span></a><a class="pg next" href="03-products.html"><span class="pg-dir">المقال التالي <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M19 12H5M11 6l-6 6 6 6"/></svg></span><span class="pg-title">03 — المنتجات والتصنيفات</span></a></nav>
+  </article>
+</main>
+<footer class="site-foot"><div class="wrap foot-in">
+  <div><div class="foot-name">سارة وليد علي</div><div class="foot-role">مصممة منتجات رقمية UX/UI</div></div>
+  <nav class="foot-links"><a href="https://www.linkedin.com/in/sara-walid-/" target="_blank" rel="noopener">LinkedIn</a><a href="https://www.behance.net/sarawalid2000" target="_blank" rel="noopener">Behance</a><a href="https://github.com/sarawalidali200-tech/salla-zid-store-setup-guide" target="_blank" rel="noopener">GitHub</a></nav>
+  <div class="foot-copy">© سارة وليد علي، 2026. المحتوى متاح للتعلم والمشاركة مع ذكر المصدر. السلسلة مستقلة وغير تابعة لسلة أو زد.</div>
+</div></footer>
+<div class="lightbox" hidden><button class="lb-close" aria-label="إغلاق">×</button><img alt=""></div>
+<script src="assets/site.js"></script>
+</body>
+</html>

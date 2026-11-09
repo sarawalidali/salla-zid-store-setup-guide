@@ -1,0 +1,169 @@
+<!doctype html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>الدفع والشحن على سلة · أنشئ متجرك على سلة وزد خطوة بخطوة</title>
+<meta name="description" content="شروط الدفع الإلكتروني، وطرق الدفع حسب الباقة، وإعداد الشحن الموحد">
+<meta name="author" content="سارة وليد علي">
+<link rel="canonical" href="https://sarawalidali200-tech.github.io/salla-zid-store-setup-guide/04-payments-shipping.html">
+<meta property="og:type" content="article">
+<meta property="og:title" content="الدفع والشحن على سلة · أنشئ متجرك على سلة وزد خطوة بخطوة">
+<meta property="og:description" content="شروط الدفع الإلكتروني، وطرق الدفع حسب الباقة، وإعداد الشحن الموحد">
+<meta property="og:url" content="https://sarawalidali200-tech.github.io/salla-zid-store-setup-guide/04-payments-shipping.html">
+<meta property="og:image" content="https://sarawalidali200-tech.github.io/salla-zid-store-setup-guide/assets/og.png">
+<meta property="og:locale" content="ar_AR">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="theme-color" content="#0F1730">
+<link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Readex+Pro:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+<div class="progress" aria-hidden="true"><span></span></div>
+<header class="topbar"><div class="wrap topbar-in">
+  <a class="brand" href="index.html"><span class="brand-mark" aria-hidden="true"></span><span>أنشئ متجرك على سلة وزد</span></a>
+  <button class="menu-btn" aria-label="القائمة" aria-expanded="false"><svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M4 7h16M4 12h16M4 17h16"/></svg></button>
+  <nav class="nav" aria-label="المقالات"><a href="01-before-you-start.html" class=""><b>01</b>قبل أن تبدأ</a><a href="02-create-salla-store.html" class=""><b>02</b>إنشاء المتجر</a><a href="03-products.html" class=""><b>03</b>المنتجات</a><a href="04-payments-shipping.html" class="on"><b>04</b>الدفع والشحن</a><a href="05-design-customization.html" class=""><b>05</b>التصميم</a><a href="06-zid-and-launch.html" class=""><b>06</b>زد والإطلاق</a><a href="sources.html" class="">المصادر</a><a class="gh" href="https://github.com/sarawalidali200-tech/salla-zid-store-setup-guide" target="_blank" rel="noopener" aria-label="الريبو على GitHub"><svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M9 19c-4 1.5-4-2-6-2.5M15 21v-3.5c0-1 .1-1.4-.5-2 2.8-.3 5.5-1.4 5.5-6a4.6 4.6 0 0 0-1.3-3.2 4.3 4.3 0 0 0-.1-3.2s-1.1-.3-3.5 1.3a12 12 0 0 0-6.2 0C6.5 2.8 5.4 3.1 5.4 3.1a4.3 4.3 0 0 0-.1 3.2A4.6 4.6 0 0 0 4 9.5c0 4.6 2.7 5.7 5.5 6-.6.6-.6 1.2-.5 2V21"/></svg><span>GitHub</span></a></nav>
+</div></header>
+
+<main class="wrap article-layout">
+  <aside class="toc" aria-label="محتوى المقال"><div class="toc-title">في هذا المقال</div><ol><li><a href="#لحظة-الحقيقة-في-المتجر">لحظة الحقيقة في المتجر</a></li><li><a href="#أولا-الدفع">أولًا: الدفع</a></li><li><a href="#ثانيا-الشحن">ثانيًا: الشحن</a></li><li><a href="#كيف-يرى-العميل-كل-هذا">كيف يرى العميل كل هذا؟</a></li><li><a href="#قائمة-المراجعة">قائمة المراجعة</a></li><li><a href="#المصادر">المصادر</a></li></ol>
+    <div class="toc-extra"><a href="https://github.com/sarawalidali200-tech/salla-zid-store-setup-guide/tree/main/articles/04-payments-shipping" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M9 19c-4 1.5-4-2-6-2.5M15 21v-3.5c0-1 .1-1.4-.5-2 2.8-.3 5.5-1.4 5.5-6a4.6 4.6 0 0 0-1.3-3.2 4.3 4.3 0 0 0-.1-3.2s-1.1-.3-3.5 1.3a12 12 0 0 0-6.2 0C6.5 2.8 5.4 3.1 5.4 3.1a4.3 4.3 0 0 0-.1 3.2A4.6 4.6 0 0 0 4 9.5c0 4.6 2.7 5.7 5.5 6-.6.6-.6 1.2-.5 2V21"/></svg> المقال على GitHub</a><a href="https://github.com/sarawalidali200-tech/salla-zid-store-setup-guide/raw/main/notion/04-payments-shipping.zip"><svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M12 4v11M7 10l5 5 5-5M5 20h14"/></svg> نسخة Notion</a></div></aside>
+  <article class="prose">
+    <nav class="crumbs"><a href="index.html">السلسلة</a><span>/</span><span>المقال 04 من 6</span></nav>
+    <header class="article-head"><span class="kicker">المقال 04</span><h1>الدفع والشحن على سلة</h1>
+      <p class="meta"><span>بقلم سارة وليد علي</span><span><svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg> قراءة 4 دقائق</span><span><svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="4" width="18" height="16" rx="2"/><circle cx="9" cy="10" r="2"/><path d="M21 17l-5-5-9 8"/></svg> 4 رسوم توضيحية</span></p></header>
+    <details class="toc-mobile"><summary>في هذا المقال</summary><ol><li><a href="#لحظة-الحقيقة-في-المتجر">لحظة الحقيقة في المتجر</a></li><li><a href="#أولا-الدفع">أولًا: الدفع</a></li><li><a href="#ثانيا-الشحن">ثانيًا: الشحن</a></li><li><a href="#كيف-يرى-العميل-كل-هذا">كيف يرى العميل كل هذا؟</a></li><li><a href="#قائمة-المراجعة">قائمة المراجعة</a></li><li><a href="#المصادر">المصادر</a></li></ol></details>
+    <blockquote>
+<p><strong>قبل القراءة:</strong> الخطوات من مركز مساعدة سلة كما كان في نوفمبر 2026. الرسوم والحدود تتغير، فاستخدم حاسبة الرسوم داخل لوحة التحكم قبل تحديد أسعارك.</p>
+</blockquote>
+<hr />
+<h2 id="لحظة-الحقيقة-في-المتجر">لحظة الحقيقة في المتجر</h2>
+<p>العميل الذي وصل إلى صفحة الدفع قرر أن يشتري. أي مفاجأة هنا، مثل طريقة دفع غير متوفرة أو تكلفة شحن لم يتوقعها، قد تجعله يترك السلة. لذلك إعداد الدفع والشحن ليس خطوة تقنية فقط، بل جزء من تجربة الشراء.</p>
+<h2 id="أولا-الدفع">أولًا: الدفع</h2>
+<h3 id="ثلاثة-شروط-للدفع-الإلكتروني">ثلاثة شروط للدفع الإلكتروني</h3>
+<p>لتستقبل مدفوعات إلكترونية في سلة، تحتاج ثلاثة أشياء معًا (<a href="https://help.salla.sa/article/create-new-store-on-salla/uqwvq1ztbcbj7ldi0xwbee7h" target="_blank" rel="noopener">إنشاء متجر جديد على سلة</a>):</p>
+<ol>
+<li><strong>توثيق المتجر:</strong> شرط أساسي لتفعيل بوابات الدفع الإلكتروني. شرحناه في المقال 02.</li>
+<li><strong>باقة مدفوعة:</strong> سلة بلس أو سلة برو.</li>
+<li><strong>تفعيل الربط</strong> مع وسائل الدفع من صفحة طرق الدفع.</li>
+</ol>
+<figure><a class="zoom" href="assets/04-payments-shipping/01-payment-conditions.webp"><img src="assets/04-payments-shipping/01-payment-conditions.webp" alt="ثلاثة شروط لتفعيل الدفع الإلكتروني في سلة" loading="lazy" decoding="async"></a><figcaption>صورة 1: الدفع الإلكتروني يعمل عندما تكتمل الشروط الثلاثة معًا.</figcaption></figure>
+<h3 id="ماذا-تتيح-كل-باقة">ماذا تتيح كل باقة؟</h3>
+<div class="table-wrap"><table>
+<thead>
+<tr>
+<th></th>
+<th>سلة بيسك (مجانية)</th>
+<th>سلة بلس وسلة برو</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>التحويل البنكي</td>
+<td>✓</td>
+<td>✓</td>
+</tr>
+<tr>
+<td>الدفع عند الاستلام</td>
+<td>✓ عبر شركة الشحن أو مندوبك</td>
+<td>✓</td>
+</tr>
+<tr>
+<td>الدفع الإلكتروني (مدفوعات سلة)</td>
+<td>✗</td>
+<td>✓ بعد التوثيق</td>
+</tr>
+<tr>
+<td>الدفع الآجل (اشترِ الآن وادفع لاحقًا)</td>
+<td>✗</td>
+<td>✓</td>
+</tr>
+<tr>
+<td>المحافظ الرقمية مثل PayPal</td>
+<td>✗</td>
+<td>✓</td>
+</tr>
+</tbody>
+</table></div>
+<p>المصدر: <a href="https://help.salla.sa/article/enable-payment-methods-in-your-store-saudi-arabia/dcrwxldslve7spa8eqdgii8g" target="_blank" rel="noopener">تفعيل طرق الدفع في المتجر</a>.</p>
+<h3 id="الوصول-إلى-صفحة-طرق-الدفع">الوصول إلى صفحة طرق الدفع</h3>
+<p>من القائمة الرئيسية، من قائمة (الكل)، من قسم الإعدادات والأدوات، اضغط (طرق الدفع). تحتوي الصفحة على هذه الأقسام:</p>
+<ul>
+<li><strong>مدفوعات سلة:</strong> الأكثر أمانًا والأسهل في التفعيل. من تبويب (طرق الدفع) اضغط (تفعيل) (<a href="https://help.salla.sa/article/%D8%AA%D9%81%D8%B9%D9%8A%D9%84-%D8%A7%D9%84%D9%85%D8%AF%D9%81%D9%88%D8%B9%D8%A7%D8%AA-%D8%A7%D9%84%D8%A5%D9%84%D9%83%D8%AA%D8%B1%D9%88%D9%86%D9%8A%D8%A9/ppros5gh7uqhilhqddqnjgbd" target="_blank" rel="noopener">تفعيل المدفوعات الإلكترونية</a>).</li>
+<li><strong>الدفع الآجل:</strong> مثل تابي، وتمارا، وميس باي، ومدفوع، وإمكان. لكل واحدة مقال تفعيل مستقل في مركز المساعدة.</li>
+<li><strong>المحافظ الرقمية:</strong> مثل PayPal.</li>
+<li><strong>التحويل البنكي:</strong> ويمكنك إضافة أكثر من حساب بنكي.</li>
+</ul>
+<p>ولتفعيل أي وسيلة: اخترها من صفحة (طرق الدفع)، واضغط (تفعيل)، ثم أكمل بياناتها.</p>
+<figure><a class="zoom" href="assets/04-payments-shipping/02-payment-methods.webp"><img src="assets/04-payments-shipping/02-payment-methods.webp" alt="أقسام صفحة طرق الدفع" loading="lazy" decoding="async"></a><figcaption>صورة 2: أقسام صفحة طرق الدفع، وما يظهر للعميل في صفحة إتمام الطلب.</figcaption></figure>
+<h3 id="أدوات-مهمة-في-صفحة-الدفع">أدوات مهمة في صفحة الدفع</h3>
+<ul>
+<li><strong>حاسبة الرسوم:</strong> أدخل قيمة الطلب وطريقة الدفع لترى الرسوم المترتبة عليه. استخدمها قبل تسعير منتجاتك.</li>
+<li><strong>قيود الدفع:</strong> شروط تتحكم في ظهور وسائل الدفع، مثل إخفاء الدفع عند الاستلام للعملاء الجدد، أو إظهار وسائل محددة لتصنيفات معينة.</li>
+<li><strong>حدود الدفع الإلكتروني:</strong> الحدود المسموحة للعمليات حسب الدولة ونوع المنتج.</li>
+<li><strong>إعدادات صفحة إتمام الطلب:</strong> من تبويب (صفحة إتمام الطلب) في مركز الإعدادات الموحد.</li>
+</ul>
+<h3 id="أين-تذهب-أموالك">أين تذهب أموالك؟</h3>
+<p>عندما يدفع العميل إلكترونيًا، تذهب الأموال أولًا إلى <strong>رصيد المدفوعات الإلكترونية</strong>، ثم يمكنك تحويلها إلى <strong>رصيد المتجر</strong> لاستخدامها أو سحبها. والمحفظة في لوحة التحكم تجمع: رصيد المتجر، ورصيد المدفوعات الإلكترونية، ورصيد الدفع عند الاستلام.</p>
+<h2 id="ثانيا-الشحن">ثانيًا: الشحن</h2>
+<h3 id="صفحة-الشحن-الموحد">صفحة الشحن الموحد</h3>
+<p>سلة تجمع كل ما يخص الشحن في مكان واحد: شركات التوصيل، والأسعار، والمناطق، والشحن المجاني، والدفع عند الاستلام (<a href="https://help.salla.sa/article/shipping-management-getting-started/avovvtw08svsd6wso6g5uras" target="_blank" rel="noopener">البدء مع إدارة الشحن الموحد</a>).</p>
+<p>المسار: من لوحة التحكم، من قائمة (الكل)، اضغط (الشحن والتوصيل). ستجد تبويبات:</p>
+<ul>
+<li><strong>صفحة الشحن والتوصيل الموحدة:</strong> إدارة شركات الشحن، وأسعار التوصيل، والدفع عند الاستلام، والشحن المجاني.</li>
+<li><strong>أرشيف البوليصات:</strong> كل البوليصات والشحنات السابقة وتتبعها.</li>
+<li><strong>بوابة الجودة:</strong> متابعة أداء شركات الشحن، مثل التأخير أو تلف الشحنات.</li>
+<li><strong>خيارات شحن متعددة:</strong> سريع أو اقتصادي أو دولي، وطريقة عرض الشركات في صفحة الدفع.</li>
+</ul>
+<h3 id="إعداد-الشحن-في-خمس-خطوات">إعداد الشحن في خمس خطوات</h3>
+<figure><a class="zoom" href="assets/04-payments-shipping/03-shipping-setup.webp"><img src="assets/04-payments-shipping/03-shipping-setup.webp" alt="خطوات إعداد الشحن في سلة" loading="lazy" decoding="async"></a><figcaption>صورة 3: خمس خطوات لإعداد الشحن، من تحديد الموقع حتى متابعة الجودة.</figcaption></figure>
+<ol>
+<li><strong>حدد موقع استلام الشحنات:</strong> من رحلة الإنشاء، أو من الفروع والمستودعات. موقع دقيق يعني استلامًا أسرع.</li>
+<li><strong>فعّل شركات الشحن:</strong> من بوليصات سلة، أو من تطبيقات شركات الشحن في متجر التطبيقات.</li>
+<li><strong>حدد الأسعار والخدمات:</strong> لكل منطقة أو لكل شركة، حسب الوزن أو الوجهة أو نوع الخدمة.</li>
+<li><strong>اضبط الشحن المجاني والدفع عند الاستلام:</strong> من صفحة الشحن والتوصيل الموحدة.</li>
+<li><strong>راقب الجودة:</strong> من بوابة الجودة، واستخدم حاسبة أسعار الشحن لتقدير التكلفة.</li>
+</ol>
+<h3 id="نصائح-تجعل-الشحن-لا-يوقف-الشراء">نصائح تجعل الشحن لا يوقف الشراء</h3>
+<ul>
+<li><strong>أدخل وزن كل منتج:</strong> بدونه قد تُحسب تكلفة الشحن بشكل خاطئ.</li>
+<li><strong>اعرض خيارين أو ثلاثة فقط:</strong> خيار اقتصادي وخيار سريع غالبًا يكفيان. كثرة الخيارات تربك العميل.</li>
+<li><strong>الشحن المجاني بحد أدنى واضح:</strong> مثل «شحن مجاني للطلبات فوق 200 ر.س»، واكتبه في شريط الإعلانات أعلى المتجر.</li>
+<li><strong>المنتجات الرقمية لا تحتاج شحنًا:</strong> اختر «لا يتطلب توصيل» في المنتج، فينتقل العميل للدفع مباشرة.</li>
+</ul>
+<h2 id="كيف-يرى-العميل-كل-هذا">كيف يرى العميل كل هذا؟</h2>
+<p>كل ما أعددته يظهر في خطوتين داخل صفحة إتمام الطلب: اختيار الشحن، ثم اختيار طريقة الدفع. افتح متجرك كعميل وجرّب طلبًا كاملًا بعد كل تغيير، وهذا ما سنفعله بالتفصيل في المقال 06.</p>
+<figure><a class="zoom" href="assets/04-payments-shipping/04-checkout-preview.webp"><img src="assets/04-payments-shipping/04-checkout-preview.webp" alt="خطوتا الشحن والدفع كما يراهما العميل" loading="lazy" decoding="async"></a><figcaption>صورة 4: خطوتا الشحن والدفع في صفحة إتمام الطلب، وما يجب أن يكون واضحًا فيهما.</figcaption></figure>
+<h2 id="قائمة-المراجعة">قائمة المراجعة</h2>
+<ul class="checklist">
+<li class="task"><label><input type="checkbox"><span>المتجر موثق، والباقة تدعم الدفع الإلكتروني إن كنت تحتاجه.</span></label></li>
+<li class="task"><label><input type="checkbox"><span>مدفوعات سلة مفعلة، أو على الأقل التحويل البنكي والدفع عند الاستلام.</span></label></li>
+<li class="task"><label><input type="checkbox"><span>جربت حاسبة الرسوم قبل تسعير المنتجات.</span></label></li>
+<li class="task"><label><input type="checkbox"><span>موقع استلام الشحنات دقيق.</span></label></li>
+<li class="task"><label><input type="checkbox"><span>شركتا شحن على الأقل مفعلتان بأسعار واضحة.</span></label></li>
+<li class="task"><label><input type="checkbox"><span>شرط الشحن المجاني محدد ومكتوب في المتجر.</span></label></li>
+<li class="task"><label><input type="checkbox"><span>جربت طلبًا كاملًا ورأيت خيارات الشحن والدفع كما يراها العميل.</span></label></li>
+</ul>
+<h2 id="المصادر">المصادر</h2>
+<ul>
+<li><a href="https://help.salla.sa/article/enable-payment-methods-in-your-store-saudi-arabia/dcrwxldslve7spa8eqdgii8g" target="_blank" rel="noopener">سلة: تفعيل طرق الدفع في المتجر</a></li>
+<li><a href="https://help.salla.sa/article/%D8%AA%D9%81%D8%B9%D9%8A%D9%84-%D8%A7%D9%84%D9%85%D8%AF%D9%81%D9%88%D8%B9%D8%A7%D8%AA-%D8%A7%D9%84%D8%A5%D9%84%D9%83%D8%AA%D8%B1%D9%88%D9%86%D9%8A%D8%A9/ppros5gh7uqhilhqddqnjgbd" target="_blank" rel="noopener">سلة: تفعيل المدفوعات الإلكترونية</a></li>
+<li><a href="https://help.salla.sa/article/shipping-management-getting-started/avovvtw08svsd6wso6g5uras" target="_blank" rel="noopener">سلة: البدء مع إدارة الشحن الموحد</a></li>
+<li><a href="https://help.salla.sa/article/create-new-store-on-salla/uqwvq1ztbcbj7ldi0xwbee7h" target="_blank" rel="noopener">سلة: إنشاء متجر جديد على سلة</a></li>
+</ul>
+    <nav class="pager" aria-label="التنقل بين المقالات"><a class="pg prev" href="03-products.html"><span class="pg-dir"><svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg> المقال السابق</span><span class="pg-title">03 — المنتجات والتصنيفات</span></a><a class="pg next" href="05-design-customization.html"><span class="pg-dir">المقال التالي <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M19 12H5M11 6l-6 6 6 6"/></svg></span><span class="pg-title">05 — تخصيص تصميم متجرك</span></a></nav>
+  </article>
+</main>
+<footer class="site-foot"><div class="wrap foot-in">
+  <div><div class="foot-name">سارة وليد علي</div><div class="foot-role">مصممة منتجات رقمية UX/UI</div></div>
+  <nav class="foot-links"><a href="https://www.linkedin.com/in/sara-walid-/" target="_blank" rel="noopener">LinkedIn</a><a href="https://www.behance.net/sarawalid2000" target="_blank" rel="noopener">Behance</a><a href="https://github.com/sarawalidali200-tech/salla-zid-store-setup-guide" target="_blank" rel="noopener">GitHub</a></nav>
+  <div class="foot-copy">© سارة وليد علي، 2026. المحتوى متاح للتعلم والمشاركة مع ذكر المصدر. السلسلة مستقلة وغير تابعة لسلة أو زد.</div>
+</div></footer>
+<div class="lightbox" hidden><button class="lb-close" aria-label="إغلاق">×</button><img alt=""></div>
+<script src="assets/site.js"></script>
+</body>
+</html>
