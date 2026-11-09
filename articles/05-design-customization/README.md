@@ -5,7 +5,7 @@
 **سلسلة: أنشئ متجرك على سلة وزد خطوة بخطوة · المقال 05**
 بقلم: سارة وليد علي · مصممة منتجات رقمية UX/UI · نوفمبر 2026
 
-**[اقرأ المقال على موقع السلسلة ←](https://sarawalidali200-tech.github.io/salla-zid-store-setup-guide/05-design-customization.html)**
+**[اقرأ المقال على موقع السلسلة ←](https://sarawalidali.github.io/salla-zid-store-setup-guide/05-design-customization.html)**
 
 > **قبل القراءة:** الخطوات من مركز مساعدة سلة كما كان في نوفمبر 2026. عناصر الصفحة الرئيسية المذكورة هنا من ثيم «رائد» كما يشرحها مركز المساعدة، وقد تختلف من ثيم لآخر.
 

@@ -5,7 +5,7 @@
 **سلسلة: أنشئ متجرك على سلة وزد خطوة بخطوة · المقال 02**
 بقلم: سارة وليد علي · مصممة منتجات رقمية UX/UI · نوفمبر 2026
 
-**[اقرأ المقال على موقع السلسلة ←](https://sarawalidali200-tech.github.io/salla-zid-store-setup-guide/02-create-salla-store.html)**
+**[اقرأ المقال على موقع السلسلة ←](https://sarawalidali.github.io/salla-zid-store-setup-guide/02-create-salla-store.html)**
 
 > **قبل القراءة:** الخطوات مأخوذة من مركز مساعدة سلة كما كان في نوفمبر 2026. أسماء الأزرار مكتوبة بين قوسين كما تظهر في لوحة التحكم، مثل (ابدأ الآن).
 

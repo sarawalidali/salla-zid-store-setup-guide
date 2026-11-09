@@ -6,7 +6,7 @@
 
 دليل عملي مجاني بالعربي يأخذك من الصفر حتى متجر إلكتروني جاهز لاستقبال أول طلب على **سلة** أو **زد**: تجهيز المستندات، والتسجيل والتوثيق، والمنتجات، والدفع والشحن، وتخصيص التصميم والدومين، ثم قائمة إطلاق تصلح للمنصتين.
 
-### [اقرأ السلسلة على موقعها ←](https://sarawalidali200-tech.github.io/salla-zid-store-setup-guide/)
+### [اقرأ السلسلة على موقعها ←](https://sarawalidali.github.io/salla-zid-store-setup-guide/)
 
 **6 مقالات · 25 رسمًا توضيحيًا · 6 قوائم مراجعة · مصادر رسمية لكل خطوة**
 
@@ -16,12 +16,12 @@
 
 | # | المقال | ماذا ستتعلم | روابط |
 | --- | --- | --- | --- |
-| 01 | [قبل أن تبدأ: جهّز متجرك قبل التسجيل](articles/01-before-you-start/README.md) | المستندات حسب نوع الكيان، وهوية المتجر، وأول خمسة منتجات، واختيار المنصة والباقة | [اقرأ](https://sarawalidali200-tech.github.io/salla-zid-store-setup-guide/01-before-you-start.html) · [Notion](notion/01-before-you-start.zip) |
-| 02 | [إنشاء متجرك على سلة وتوثيقه](articles/02-create-salla-store/README.md) | رحلة الإنشاء الخمس، ومتطلبات التدشين، والتوثيق حسب الكيان، وخريطة لوحة التحكم | [اقرأ](https://sarawalidali200-tech.github.io/salla-zid-store-setup-guide/02-create-salla-store.html) · [Notion](notion/02-create-salla-store.zip) |
-| 03 | [المنتجات والتصنيفات على سلة](articles/03-products/README.md) | حقول المنتج وأين تظهر للعميل، والخيارات وكمياتها، وشجرة التصنيفات | [اقرأ](https://sarawalidali200-tech.github.io/salla-zid-store-setup-guide/03-products.html) · [Notion](notion/03-products.zip) |
-| 04 | [الدفع والشحن على سلة](articles/04-payments-shipping/README.md) | شروط الدفع الإلكتروني، وطرق الدفع حسب الباقة، وإعداد الشحن الموحد | [اقرأ](https://sarawalidali200-tech.github.io/salla-zid-store-setup-guide/04-payments-shipping.html) · [Notion](notion/04-payments-shipping.zip) |
-| 05 | [تخصيص تصميم متجرك على سلة](articles/05-design-customization/README.md) | الثيم، والهوية، وعناصر الصفحة الرئيسية، والهيدر والفوتر، والدومين | [اقرأ](https://sarawalidali200-tech.github.io/salla-zid-store-setup-guide/05-design-customization.html) · [Notion](notion/05-design-customization.zip) |
-| 06 | [نفس الرحلة على زد، وقائمة الإطلاق](articles/06-zid-and-launch/README.md) | زد خطوة بخطوة، ومقارنة المنصتين، والطلب التجريبي، وقائمة الإطلاق | [اقرأ](https://sarawalidali200-tech.github.io/salla-zid-store-setup-guide/06-zid-and-launch.html) · [Notion](notion/06-zid-and-launch.zip) |
+| 01 | [قبل أن تبدأ: جهّز متجرك قبل التسجيل](articles/01-before-you-start/README.md) | المستندات حسب نوع الكيان، وهوية المتجر، وأول خمسة منتجات، واختيار المنصة والباقة | [اقرأ](https://sarawalidali.github.io/salla-zid-store-setup-guide/01-before-you-start.html) · [Notion](notion/01-before-you-start.zip) |
+| 02 | [إنشاء متجرك على سلة وتوثيقه](articles/02-create-salla-store/README.md) | رحلة الإنشاء الخمس، ومتطلبات التدشين، والتوثيق حسب الكيان، وخريطة لوحة التحكم | [اقرأ](https://sarawalidali.github.io/salla-zid-store-setup-guide/02-create-salla-store.html) · [Notion](notion/02-create-salla-store.zip) |
+| 03 | [المنتجات والتصنيفات على سلة](articles/03-products/README.md) | حقول المنتج وأين تظهر للعميل، والخيارات وكمياتها، وشجرة التصنيفات | [اقرأ](https://sarawalidali.github.io/salla-zid-store-setup-guide/03-products.html) · [Notion](notion/03-products.zip) |
+| 04 | [الدفع والشحن على سلة](articles/04-payments-shipping/README.md) | شروط الدفع الإلكتروني، وطرق الدفع حسب الباقة، وإعداد الشحن الموحد | [اقرأ](https://sarawalidali.github.io/salla-zid-store-setup-guide/04-payments-shipping.html) · [Notion](notion/04-payments-shipping.zip) |
+| 05 | [تخصيص تصميم متجرك على سلة](articles/05-design-customization/README.md) | الثيم، والهوية، وعناصر الصفحة الرئيسية، والهيدر والفوتر، والدومين | [اقرأ](https://sarawalidali.github.io/salla-zid-store-setup-guide/05-design-customization.html) · [Notion](notion/05-design-customization.zip) |
+| 06 | [نفس الرحلة على زد، وقائمة الإطلاق](articles/06-zid-and-launch/README.md) | زد خطوة بخطوة، ومقارنة المنصتين، والطلب التجريبي، وقائمة الإطلاق | [اقرأ](https://sarawalidali.github.io/salla-zid-store-setup-guide/06-zid-and-launch.html) · [Notion](notion/06-zid-and-launch.zip) |
 
 ![خريطة رحلة إنشاء المتجر من الفكرة حتى أول طلب](assets/cover.png)
 
@@ -66,7 +66,7 @@ SOURCES.md  المقالات الرسمية التي اعتمدت عليها ا�
 - LinkedIn: [sara-walid-](https://www.linkedin.com/in/sara-walid-/)
 - Behance: [sarawalid2000](https://www.behance.net/sarawalid2000)
 
-عندك سؤال، أو لاحظت خطوة تغيرت في المنصة؟ افتح [Issue](https://github.com/sarawalidali200-tech/salla-zid-store-setup-guide/issues).
+عندك سؤال، أو لاحظت خطوة تغيرت في المنصة؟ افتح [Issue](https://github.com/sarawalidali/salla-zid-store-setup-guide/issues).
 
 ## حقوق النشر
 

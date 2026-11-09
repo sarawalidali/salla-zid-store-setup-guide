@@ -5,7 +5,7 @@
 **سلسلة: أنشئ متجرك على سلة وزد خطوة بخطوة · المقال 04**
 بقلم: سارة وليد علي · مصممة منتجات رقمية UX/UI · نوفمبر 2026
 
-**[اقرأ المقال على موقع السلسلة ←](https://sarawalidali200-tech.github.io/salla-zid-store-setup-guide/04-payments-shipping.html)**
+**[اقرأ المقال على موقع السلسلة ←](https://sarawalidali.github.io/salla-zid-store-setup-guide/04-payments-shipping.html)**
 
 > **قبل القراءة:** الخطوات من مركز مساعدة سلة كما كان في نوفمبر 2026. الرسوم والحدود تتغير، فاستخدم حاسبة الرسوم داخل لوحة التحكم قبل تحديد أسعارك.
 

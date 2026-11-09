@@ -56,6 +56,6 @@
 - [زد: النطاقات](https://help.zid.sa/ar/store-settings/domains)
 - [زد: الأسعار](https://zid.sa/pricing/)
 
-إذا وجدت خطوة تغيرت في المنصة، افتح [Issue](https://github.com/sarawalidali200-tech/salla-zid-store-setup-guide/issues) واذكر رابط المقال الرسمي الجديد.
+إذا وجدت خطوة تغيرت في المنصة، افتح [Issue](https://github.com/sarawalidali/salla-zid-store-setup-guide/issues) واذكر رابط المقال الرسمي الجديد.
 
 </div>
